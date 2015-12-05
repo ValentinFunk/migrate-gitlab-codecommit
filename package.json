@@ -1,0 +1,17 @@
+{
+  "name": "gitlab-to-codecommit",
+  "version": "1.0.0",
+  "description": "Script to migrate repositories from GitLab to AWS CodeCommit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.21",
+    "bluebird": "^3.0.6",
+    "gitlab": "^1.5.0",
+    "lodash": "^3.10.1"
+  }
+}

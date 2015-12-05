@@ -5,7 +5,7 @@ It moves all repositories from GitLab to CodeCommit. It assumes you have already
 
 1.) Set up environment variables:
 - Either use ~/.aws/credentials or set up AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY (more about access keys: http://docs.aws.amazon.com/console/iam/access-keys)
-- If using windows:Set AWS_KEY_ID to your SSH Key ID (Get from AWS Console -> IAM > Users > <IAM User> > Security Credentials)
+- If using windows:Set AWS_KEY_ID to your SSH Key ID (Get from AWS Console -> IAM > Users > (YOur User) > Security Credentials)
 - Set GITLAB_URL to your gitlab's URL, GITLAB_TOKEN to your gitlab API token (get from <Your Gitlab>/profile/account)
 
 2.) Run the script
